@@ -6,7 +6,7 @@ const total = ref([])
 
 function handleClick () {
 	for (let i=1; i<=10; i++) {
-    total.value.push(i * 5)
+    total.value.push(i * n.value)
 	}
 }
 
